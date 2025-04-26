@@ -53,9 +53,9 @@ setResult((principle*timePeriod *intrestRate)/100)
     setIntrestRate(0);
     setTimePeriod(0);
     setResult(0);
-    setInvalidPrinciple(0);
-    setInvalidIntrestRate(0);
-    setInvalidTimePeriod(0);
+    setInvalidPrinciple(false);
+    setInvalidIntrestRate(false);
+    setInvalidTimePeriod(false);
   }
   return (
     <>
